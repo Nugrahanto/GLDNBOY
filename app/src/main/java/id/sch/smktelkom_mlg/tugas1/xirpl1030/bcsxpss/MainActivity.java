@@ -1,7 +1,7 @@
 package id.sch.smktelkom_mlg.tugas1.xirpl1030.bcsxpss;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 	Spinner spProvinsi, spKota;
 	CheckBox cbSMA, cbMHS, cbKRJ;
 	Button bOk;
-	TextView tvHasil1, tvHasil2, tvPendidikan;
+	TextView tvHasil1, tvHasil2, tvHasil3, tvHasil4, tvPendidikan;
 	int nHobi;
 
 	String[][]arKota = {{"Jakarta Barat", "Jakarta Pusat", "Jakarta Selatan", "Jakarta Timur", "Jakarta Utara"},
@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
 		tvHasil1 = (TextView) findViewById(R.id.textViewHasil1);
 		tvHasil2 = (TextView) findViewById(R.id.textViewHasil2);
+		tvHasil3 = (TextView) findViewById(R.id.textViewHasil3);
+		tvHasil4 = (TextView) findViewById(R.id.textViewHasil4);
 		tvPendidikan  = (TextView) findViewById(R.id.textViewPendidikan);
 
 		adapter    = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, listKota);
@@ -109,14 +111,15 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 			etTahun.setError(null);
 		}
 		tvHasil1.setText("Nama                   : "+nama + "\nTanggal Lahir      : "+tahun);
-
+		tvHasil2.setText("Asal                      : " + spProvinsi.getSelectedItem().toString() + ", "
+				+ " Kota " + spKota.getSelectedItem().toString());
 
 		if (cbSMA.isChecked()) hasil2+=cbSMA.getText()+", ";
 		if (cbMHS.isChecked()) hasil2+=cbMHS.getText()+", ";
 		if (cbKRJ.isChecked()) hasil2+=cbKRJ.getText()+". ";
 
 		if (hasil2.length()==startlen) hasil2+="Tidak ada pada Pilihan";
-		tvHasil2.setText(hasil2);
+		tvHasil4.setText(hasil2);
 	}
 
 	@Override
