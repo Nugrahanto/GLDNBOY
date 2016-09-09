@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 
 	EditText etNama, etTahun;
 	Spinner spProvinsi, spKota;
+	RadioGroup rgJK;
 	CheckBox cbSMA, cbMHS, cbKRJ;
 	Button bOk;
 	TextView tvHasil1, tvHasil2, tvHasil3, tvHasil4, tvPendidikan;
@@ -42,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 		etTahun    	= (EditText) findViewById(R.id.Tahun);
 		spProvinsi 	= (Spinner) findViewById(R.id.spinnerProvinsi);
 		spKota     	= (Spinner) findViewById(R.id.spinnerKota);
+		rgJK = (RadioGroup) findViewById(R.id.radioGroupJK);
 		cbSMA 		= (CheckBox) findViewById(R.id.checkBoxSMA);
 		cbMHS 		= (CheckBox) findViewById(R.id.checkBoxMHS);
 		cbKRJ 	  	= (CheckBox) findViewById(R.id.checkBoxKRJ);
@@ -88,7 +92,8 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 	private void doClick() {
 		String nama = etNama.getText().toString();
 		String tahun = etTahun.getText().toString();
-		String hasil2 = "Pendidikan anda : " ;
+		String hasil2 = "Pendidikan anda    : ";
+		String hasil3 = null;
 		int startlen = hasil2.length();
 
 		if (nama.isEmpty()) {
@@ -110,9 +115,19 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
 		else {
 			etTahun.setError(null);
 		}
-		tvHasil1.setText("Nama                   : "+nama + "\nTanggal Lahir      : "+tahun);
-		tvHasil2.setText("Asal                      : " + spProvinsi.getSelectedItem().toString() + ", "
-				+ " Kota " + spKota.getSelectedItem().toString());
+		tvHasil1.setText("Nama                      : " + nama + "\nTanggal Lahir         : " + tahun);
+		tvHasil2.setText("Asal                         : " + "Kota " + spKota.getSelectedItem().toString() + ", "
+				+ spProvinsi.getSelectedItem().toString());
+		if (rgJK.getCheckedRadioButtonId() != -1) {
+			RadioButton rb = (RadioButton)
+					findViewById(rgJK.getCheckedRadioButtonId());
+			hasil3 = rb.getText().toString();
+		}
+		if (hasil3 == null) {
+			tvHasil3.setText("Jenis Kelamin        : -");
+		} else {
+			tvHasil3.setText("Jenis Kelamin        : " + hasil3);
+		}
 
 		if (cbSMA.isChecked()) hasil2+=cbSMA.getText()+", ";
 		if (cbMHS.isChecked()) hasil2+=cbMHS.getText()+", ";
