@@ -34,5 +34,7 @@ DETEKSI KESALAHAN	:
 <br>
 ### D. (SCREENSHOT)
 ![Screenshot 1](https://docs.google.com/uc?id=0BxbuluTTO_pmYnFoU1FHbEEwbG8)
+<br>
 ![Screenshot 2](https://docs.google.com/uc?id=0BxbuluTTO_pmSW9leHE1YmEteVE)
+<br>
 ![Screenshot 3](https://drive.google.com/open?id=0BxbuluTTO_pmUFBSOHg4Z1lEQlE)
