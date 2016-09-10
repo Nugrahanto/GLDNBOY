@@ -33,6 +33,6 @@ DETEKSI KESALAHAN	:
 
 <br>
 ### D. (SCREENSHOT)
-![GitHub Logo](https://docs.google.com/uc?id=0BxbuluTTO_pmYnFoU1FHbEEwbG8)
-![GitHub Logo](https://docs.google.com/uc?id=0BxbuluTTO_pmSW9leHE1YmEteVE)
-![GitHub Logo](https://drive.google.com/open?id=0BxbuluTTO_pmUFBSOHg4Z1lEQlE)
+![Screenshot 1](https://docs.google.com/uc?id=0BxbuluTTO_pmYnFoU1FHbEEwbG8)
+![Screenshot 2](https://docs.google.com/uc?id=0BxbuluTTO_pmSW9leHE1YmEteVE)
+![Screenshot 3](https://drive.google.com/open?id=0BxbuluTTO_pmUFBSOHg4Z1lEQlE)
