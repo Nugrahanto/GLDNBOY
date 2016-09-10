@@ -1,6 +1,6 @@
 # GLDNBOY | BCSxPSS
 
-<h3>A. (PENJELASAN)</h3>
+### A. (PENJELASAN)
 
 TEMA / TOPIK	  	: 
 <br>Pengisian formulir komunitas BCS
@@ -20,19 +20,19 @@ DETEKSI KESALAHAN	:
 <br>- Input Tanggal Lahir	(tidak diisi, format penulisan tidak DD MM YYYY)
 
 <br>
-<h3>B. (LINK DOWNLOAD)</h3>
+### B. (LINK DOWNLOAD)
 <p>http://www.mediafire.com/download/uc5zkuhirmc1auu/app-debug.apk</p>
 
 <br>
-<h3>C. (DATA DIRI)</h3>
-<br>#  NAMA	  	: Rianirsyah Dian Nugrahanto
-<br>#  KELAS		: XI RPL 1
-<br>#  NO. URUT	: 30
-<br>#  NIS  		: 4811/1530.070
-<br>#  NAMA SEKOLAH	: SMK TELKOM MALANG
+### C. (DATA DIRI)
+<br>  NAMA	  	: Rianirsyah Dian Nugrahanto
+<br>  KELAS		: XI RPL 1
+<br>  NO. URUT	: 30
+<br>  NIS  		: 4811/1530.070
+<br>  NAMA SEKOLAH	: SMK TELKOM MALANG
 
 <br>
-<h3>D. (SCREENSHOT)</h3>
-https://docs.google.com/uc?id=0BxbuluTTO_pmYnFoU1FHbEEwbG8
+### D. (SCREENSHOT)
+![GitHub Logo](https://drive.google.com/open?id=0BxbuluTTO_pmYnFoU1FHbEEwbG8.png)
 <br>https://drive.google.com/open?id=0BxbuluTTO_pmSW9leHE1YmEteVE
 <br>https://drive.google.com/open?id=0BxbuluTTO_pmUFBSOHg4Z1lEQlE
