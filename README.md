@@ -33,6 +33,6 @@ DETEKSI KESALAHAN	:
 
 <br>
 <h3>D. (SCREENSHOT)</h3>
-https://drive.google.com/open?id=0BxbuluTTO_pmYnFoU1FHbEEwbG8
+https://docs.google.com/uc?id=0BxbuluTTO_pmYnFoU1FHbEEwbG8
 <br>https://drive.google.com/open?id=0BxbuluTTO_pmSW9leHE1YmEteVE
 <br>https://drive.google.com/open?id=0BxbuluTTO_pmUFBSOHg4Z1lEQlE
